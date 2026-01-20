@@ -13,12 +13,12 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
 
 <nav class="section-menu">
   <div class="menu-item">
-    <span><a href="#data-collection">Data</a></span>
+    <span>Data</span>
     <div class="dropdown">
       <a href="#traditional-data">Traditional Data</a>
       <a href="#synthetic-data">Synthetic Data</a>
       <a href="#scraping">Scraping</a>
-      <a href="#literature-extraction">Literature Extraction</a>>
+      <a href="#literature-extraction">Literature Extraction</a>
     </div>
   </div>
 </nav>
