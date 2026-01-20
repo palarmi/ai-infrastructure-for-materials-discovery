@@ -1,1 +1,13 @@
+h1 {
+  color: #990000; /* NCSU wine red */
+}
+
+.section-menu {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+/* (resto del CSS que ya te di) */
 
