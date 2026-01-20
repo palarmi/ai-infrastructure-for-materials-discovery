@@ -13,10 +13,12 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
 
 <nav class="section-menu">
   <div class="menu-item">
-    <span>Data</span>
+    <span><a href="#data-collection">Data</a></span>
     <div class="dropdown">
-      <a href="#traditional-data">Traditional Data Collection</a>
-      <a href="#synthetic-data">Synthetic & In Silico</a>
+      <a href="#traditional-data">Traditional Data</a>
+      <a href="#synthetic-data">Synthetic Data</a>
+      <a href="#scraping">Scraping</a>
+      <a href="#literature-extraction">Literature Extraction</a>>
     </div>
   </div>
 </nav>
@@ -28,7 +30,7 @@ AI-powered infrastructure for materials discovery and advanced manufacturing.
 The goal is to improve transparency and navigability across the heterogeneous ecosystem of
 methods referenced in the manuscript, rather than to provide executable implementations.
 
-## Physical System: Data Collection 
+## Physical System: Data Collection {#data-collection}
 
 ### Traditional Data Collection {#traditional-data}
 
@@ -80,7 +82,7 @@ Computational tools and databases used for physics-based modeling and simulation
 ### Data Scraping from Publicly Available Sources
 Tools and frameworks used to automatically extract structured and unstructured data from publicly available web sources, including scientific websites, databases, and online repositories.
 
-#### Web Scraping Tools and Frameworks
+### Data Scraping from Publicly Available Sources {#scraping}
 
 | Tool / Framework | Open Source | Primary Use | Typical Scope |
 |------------------|-------------|-------------|---------------|
@@ -100,7 +102,7 @@ Tools and frameworks used to automatically extract structured and unstructured d
 ### Automated Data Extraction from Scientific Literature
 AI-driven tools and language models used to extract structured information from scientific publications, including materials properties, synthesis conditions, and structure–property relationships.
 
-#### Literature Extraction Tools and Frameworks
+### Automated Data Extraction from Scientific Literature {#literature-extraction}
 
 | Tool / Framework | Approach | Open Source | Primary Use |
 |------------------|----------|-------------|-------------|
