@@ -73,20 +73,20 @@ h1 {
 
 
 /* Default horizontal rule = section break */
+/* Big divider (default ---) */
 hr {
-  border: none;
-  border-top: 2px solid #e0e0e0;
-  margin: 3rem 0;
+  border: 0 !important;
+  border-top: 3px solid #d6d6d6 !important;
+  margin: 3rem 0 !important;
 }
 
-/* Softer divider inside sections */
-.section-divider {
-  border-top: 1px solid #e5e5e5;
-  margin: 2rem 0;
+/* Subsection divider (custom) */
+hr.section-divider {
+  border: 0 !important;
+  border-top: 1px solid #d6d6d6 !important;
+  margin: 1.5rem 0 !important;
+  width: 70% !important;      /* esto lo hace VISUALMENTE distinto */
+  opacity: 0.9 !important;
 }
 
-/* Extra subtle spacing divider (no line) */
-.soft-divider {
-  margin: 3rem 0 1.5rem;
-}
 
