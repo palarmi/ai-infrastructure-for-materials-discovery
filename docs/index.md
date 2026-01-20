@@ -47,7 +47,6 @@ Databases derived from experimental and observational workflows that provide che
 | [Inorganic Crystal Structure Database (ICSD)](https://icsd.products.fiz-karlsruhe.de) | No | Inorganic crystal structures |
 | [Protein Data Bank (PDB)](https://www.rcsb.org) | Yes | Protein and nucleic acid structures |
 
-***
 
 ---
 
