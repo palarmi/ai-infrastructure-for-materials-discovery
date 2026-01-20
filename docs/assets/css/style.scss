@@ -71,3 +71,22 @@ h1 {
   border-bottom-color: #990000;
 }
 
+
+/* Default horizontal rule = section break */
+hr {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 3rem 0;
+}
+
+/* Softer divider inside sections */
+.section-divider {
+  border-top: 1px solid #e5e5e5;
+  margin: 2rem 0;
+}
+
+/* Extra subtle spacing divider (no line) */
+.soft-divider {
+  margin: 3rem 0 1.5rem;
+}
+
