@@ -11,12 +11,22 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
   <i>Supplementary curated resources supporting an AI-powered infrastructure for materials discovery and advanced manufacturing</i>
 </p>
 
-<p align="center">
-  <a href="{{ site.baseurl }}/data.html"><b>Data</b></a> ·
-  <a href="{{ site.baseurl }}/simulation.html"><b>Simulation</b></a> ·
-  <a href="{{ site.baseurl }}/ml.html"><b>Machine Learning</b></a> ·
-  <a href="{{ site.baseurl }}/automation.html"><b>Automation</b></a>
-</p>
+<nav class="section-menu">
+  <div class="menu-item">
+    <span>Data</span>
+    <div class="dropdown">
+      <a href="#traditional-data">Traditional Data Collection</a>
+      <a href="#synthetic-data">Synthetic & In Silico</a>
+    </div>
+  </div>
+</nav>
+
+
+
+
+### Traditional Data Collection {#traditional-data}
+### Synthetic Data and In Silico Simulation {#synthetic-data}
+
 
 
 This site serves as a supplementary, structured extension of the associated research work,
