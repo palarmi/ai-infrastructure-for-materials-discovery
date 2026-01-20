@@ -1,1 +1,1 @@
-# ai-infrastructure-for-materials-discovery
+# AI Infrastructure for Materials Discovery
