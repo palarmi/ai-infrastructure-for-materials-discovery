@@ -21,14 +21,6 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
   </div>
 </nav>
 
-
-
-
-### Traditional Data Collection {#traditional-data}
-### Synthetic Data and In Silico Simulation {#synthetic-data}
-
-
-
 This site serves as a supplementary, structured extension of the associated research work,
 organizing the computational tools, data resources, and platforms that underpin the proposed
 AI-powered infrastructure for materials discovery and advanced manufacturing.
@@ -36,9 +28,9 @@ AI-powered infrastructure for materials discovery and advanced manufacturing.
 The goal is to improve transparency and navigability across the heterogeneous ecosystem of
 methods referenced in the manuscript, rather than to provide executable implementations.
 
-## Physical System: Data Collection
+## Physical System: Data Collection 
 
-### Traditional Data Collection
+### Traditional Data Collection {#traditional-data}
 
 Databases derived from experimental and observational workflows that provide chemical, biological, and structural data foundational to materials research.
 
@@ -53,7 +45,7 @@ Databases derived from experimental and observational workflows that provide che
 | [Inorganic Crystal Structure Database (ICSD)](https://icsd.products.fiz-karlsruhe.de) | No | Inorganic crystal structures |
 | [Protein Data Bank (PDB)](https://www.rcsb.org) | Yes | Protein and nucleic acid structures |
 
-### Synthetic Data and In Silico Simulation
+### Synthetic Data and In Silico Simulation {#synthetic-data}
 
 Computational tools and databases used for physics-based modeling and simulation-driven data generation in materials research.
 
