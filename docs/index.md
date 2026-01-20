@@ -52,7 +52,7 @@ Databases derived from experimental and observational workflows that provide che
 ---
 
 <hr class="section-divider">
-<div class="soft-divider"></div>
+
 
 
 ### Synthetic Data and In Silico Simulation {#synthetic-data}
