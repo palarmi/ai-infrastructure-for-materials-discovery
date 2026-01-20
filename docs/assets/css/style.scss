@@ -7,3 +7,51 @@
 h1 {
   color: #990000; /* NCSU dark/wine red */
 }
+
+
+.section-menu{
+  display:flex;
+  justify-content:center;
+  gap:2rem;
+  margin:1.5rem 0 2rem;
+}
+
+.menu-item{ position:relative; font-weight:600; cursor:pointer; }
+
+.menu-item > span{
+  color:#2F3E4E;
+  padding-bottom:4px;
+  border-bottom:2px solid transparent;
+}
+
+.menu-item:hover > span{
+  color:#990000;
+  border-bottom-color:#990000;
+}
+
+.dropdown{
+  display:none;
+  position:absolute;
+  top:1.8rem;
+  left:0;
+  background:#fff;
+  border:1px solid #ddd;
+  min-width:260px;
+  padding:.4rem 0;
+  z-index:1000;
+}
+
+.menu-item:hover .dropdown{ display:block; }
+
+.dropdown a{
+  display:block;
+  padding:.35rem 1rem;
+  text-decoration:none;
+  color:#2B2B2B;
+  font-weight:400;
+}
+
+.dropdown a:hover{
+  background:#f5f5f5;
+  color:#990000;
+}
