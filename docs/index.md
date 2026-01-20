@@ -443,7 +443,6 @@ Quantum computing and blockchain technologies represent complementary pillars of
 
 ## Associated publication
 
-**[Paper here]**  
 
 
 
