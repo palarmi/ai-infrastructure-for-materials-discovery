@@ -55,3 +55,19 @@ h1 {
   background:#f5f5f5;
   color:#990000;
 }
+
+/* Menu top-level links */
+.menu-link {
+  color: #2F3E4E !important;   /* blue-gray */
+  font-weight: 600;
+  text-decoration: none !important;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+/* Hover effect */
+.menu-item:hover .menu-link {
+  color: #990000 !important;   /* NCSU wine */
+  border-bottom-color: #990000;
+}
+
