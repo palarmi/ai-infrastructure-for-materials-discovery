@@ -49,6 +49,8 @@ Databases derived from experimental and observational workflows that provide che
 
 ***
 
+---
+
 ### Synthetic Data and In Silico Simulation {#synthetic-data}
 
 Computational tools and databases used for physics-based modeling and simulation-driven data generation in materials research.
