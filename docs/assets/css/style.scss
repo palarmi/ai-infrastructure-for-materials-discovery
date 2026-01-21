@@ -92,24 +92,9 @@ hr.section-divider {
 /* ================================
    TEXT HIERARCHY (HEADINGS ONLY)
 ================================ */
-
-/* H1: default theme color */
-h1 {
-  color: inherit;
-}
-
-/* H2: wine / dark red */
-h2 {
-  color: #990000;
-}
-
-/* H3: deep blue */
-h3 {
-  color: #232F3E;
-}
-
-/* H4: dark neutral gray */
-h4 {
-  color: #4A4A4A;
-}
+/* Headings only — force override against theme specificity */
+.page-content h1, .post-content h1, main h1 { color: inherit !important; }
+.page-content h2, .post-content h2, main h2 { color: #990000 !important; }
+.page-content h3, .post-content h3, main h3 { color: #232F3E !important; }
+.page-content h4, .post-content h4, main h4 { color: #4A4A4A !important; }
 
