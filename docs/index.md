@@ -361,9 +361,13 @@ The level of openness in deployed systems influences reproducibility, auditabili
 
 These deployment practices illustrate how open platforms and transparent documentation can support reusable and extensible AI infrastructures for materials research.
 
+---
+
 ## Emerging Technologies 
 
-Emerging digital technologies are reshaping the future of materials discovery by enabling computational paradigms that extend beyond the limits of classical simulation, centralized data infrastructures, and conventional optimization workflows. Among these, **quantum computing** and **blockchain-enabled systems** stand out as complementary technologies that support scalability, transparency, and collaboration in next-generation materials research.
+Emerging digital technologies extend current materials discovery pipelines beyond the limits of classical simulation, centralized data architectures, and conventional optimization workflows. 
+
+This section highlights quantum computing and blockchain-enabled systems as complementary directions that support scalability, transparency, and collaborative research in next-generation materials infrastructures.
 
 ### Quantum Computing
 
