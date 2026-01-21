@@ -34,18 +34,13 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
   </div>
 
   <!-- AI Modeling -->
-  <div class="menu-item">
-    <a href="#ai-modeling" class="menu-link">AI Modeling</a>
-    <div class="dropdown">
-      <a href="#traditional-ml">Traditional ML</a>
-      <a href="#deep-learning">Deep Learning</a>
-      <a href="#federated-learning">Federated Learning</a>
-      <a href="#xai">Explainable AI</a>
-      <a href="#generative-ai">Generative AI</a>
-      <a href="#agentic-ai">Agentic AI</a>
-      <a href="#ai-cloud">Cloud AI</a>
-    </div>
+<div class="menu-item">
+  <a href="#data-and-ai-pipeline" class="menu-link">Data & AI Pipeline</a>
+  <div class="dropdown">
+    <a href="#data-processing">Data Processing</a>
+    <a href="#ai-modeling">AI Modeling</a>>
   </div>
+</div>
 </nav>
 
 This site provides a structured overview of the data sources, computational tools, and platforms commonly referenced in contemporary AI-driven materials discovery and advanced manufacturing workflows.
@@ -208,13 +203,14 @@ Frameworks and standards designed to structure, index, and maintain consistency 
 | [Open Materials Database (OMDB)](https://omdb.mathub.io) | Materials database | Yes | Semantic indexing of materials information |
 
 Together, these components enable scalable, interoperable, and reproducible handling of materials data across diverse research workflows.
+
 ---
 ## Data and AI Pipeline
 
-This section curates core software libraries, model families, and deployment platforms commonly used to build end-to-end data and AI pipelines for materials discovery, characterization, and advanced manufacturing workflows.
+Core software components and modeling layers that together form end-to-end data and AI pipelines for materials discovery, characterization, and advanced manufacturing.
 
-### Data Processing
-Tools for parsing materials data, generating descriptors, scaling to high-throughput settings, and enabling real-time learning workflows.
+### Data Processing {data-processing}
+Libraries and frameworks used to parse materials data, generate descriptors, and support scalable data transformation within AI-driven workflows.
 
 | Tool / Framework | Category | Open Source | Primary Use |
 |------------------|----------|-------------|-------------|
@@ -229,9 +225,11 @@ Tools for parsing materials data, generating descriptors, scaling to high-throug
 ---
 ### AI Modeling {#ai-modeling}
 
+Modeling paradigms that operate downstream of data processing to enable prediction, interpretation, and design within materials workflows.
+
 #### Traditional Machine Learning Models in Materials Science {#traditional-ml}
 
-Representative ML families commonly used for property screening, synthesis/process optimization, and baseline modeling.
+Classical machine learning approaches commonly applied to structured and descriptor-based materials datasets.
 
 | Model Family | Typical Inputs | Typical Outputs | Common Evaluation Metrics |
 |-------------|----------------|----------------|---------------------------|
@@ -243,7 +241,7 @@ Representative ML families commonly used for property screening, synthesis/proce
 
 #### Deep Learning Models for Material Property Prediction {#deep-learning}
 
-Representative deep learning families used across graphs, multimodal data, and imaging/sensing pipelines.
+Deep learning architectures designed to operate on graph-based, image-based, and multimodal materials representations.
 
 | Model Family (Examples) | Typical Representations | Primary Scope | Common Evaluation Metrics |
 |-------------------------|-------------------------|---------------|---------------------------|
@@ -255,7 +253,7 @@ Representative deep learning families used across graphs, multimodal data, and i
 
 #### Federated Learning for Collaborative Materials Informatics {#federated-learning}
 
-Privacy-preserving model training across institutions while keeping raw datasets local.
+Distributed learning paradigms that enable collaborative model training across institutions while preserving data locality.
 
 | Component | What It Enables | Typical Challenges |
 |----------|------------------|-------------------|
@@ -265,7 +263,7 @@ Privacy-preserving model training across institutions while keeping raw datasets
 
 #### Explainable AI in Materials Science {#xai}
 
-Tools used to interpret model behavior, validate learned relationships, and support actionable design insight
+Methods and tools used to interpret model behavior and assess the relevance of learned features in materials applications.
 
 | Tool / Method | Type | Open Source | Primary Use |
 |--------------|------|-------------|-------------|
@@ -277,7 +275,7 @@ Tools used to interpret model behavior, validate learned relationships, and supp
 
 #### Generative AI in Materials Science {#generative-ai}
 
-Generative model families used for inverse design, candidate proposal, and exploration of large chemical spaces.
+Generative modeling approaches used for inverse design and exploration of large chemical and materials spaces.
 
 | Generative Family | Typical Representations | Primary Outputs | Common Evaluation Criteria |
 |------------------|-------------------------|----------------|----------------------------|
@@ -287,7 +285,7 @@ Generative model families used for inverse design, candidate proposal, and explo
 
 #### From LLMs to Agentic AI in Materials Discovery {#agentic-ai}
 
-Representative agentic / multi-agent directions (planning + tool-use + iteration). (Links point to primary sources or public repositories where available.)
+Emerging language-model–driven and agent-based systems that integrate planning, tool use, and iterative refinement.
 
 | System / Direction | Category | Open Access | Notes |
 |-------------------|----------|-------------|------|
@@ -298,7 +296,7 @@ Representative agentic / multi-agent directions (planning + tool-use + iteration
 
 #### AI in Cloud-Based Infrastructure for Materials Science {#ai-cloud}
 
-Cloud platforms and managed services commonly used to scale model training, experiments, and deployment.
+Managed platforms and services that support scalable training, deployment, and orchestration of materials AI pipelines.
 
 | Platform | Category | Open Source | Primary Use |
 |---------|----------|-------------|-------------|
@@ -307,7 +305,8 @@ Cloud platforms and managed services commonly used to scale model training, expe
 | [Azure Machine Learning](https://azure.microsoft.com/products/machine-learning/) | Managed ML | No | Collaborative ML + enterprise integration |
 | [IBM Watson](https://www.ibm.com/watson) | AI services | No | NLP and enterprise AI tooling |
 
-The resources in this section map the practical building blocks required to implement modern data and AI pipelines in materials discovery and advanced manufacturing—from descriptor generation and scalable processing, to predictive, explainable, and generative modeling, and finally to deployment-ready cloud infrastructure. Together, these components enable modular, reproducible workflows where data transformation, model development, evaluation, and iterative improvement can be integrated into end-to-end pipelines that support both scientific rigor and operational scalability.
+These components illustrate how data processing, modeling, and deployment layers are integrated into cohesive AI pipelines supporting modern materials research.
+
 ---
 ## Open-Source Deployment 
 
