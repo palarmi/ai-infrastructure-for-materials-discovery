@@ -34,6 +34,7 @@ This section groups representative sources through which materials data are typi
 Databases constructed from experimentally generated data and expert-curated materials records.
 
 ####  Databases derived from traditional experimental data collection
+
 | Database | Open Access | Scope |
 |---------|-------------|-------|
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov) | Yes | Chemical properties and bioassays |
@@ -120,6 +121,7 @@ Language-model–driven and NLP-based systems for converting unstructured scient
 | [Polymer Scholar](https://polymerscholar.org) | LLM-assisted extraction | Yes | Large-scale polymer–property data extraction |
 
 Together, these resources illustrate the heterogeneous origins of materials data that underpin data-driven and AI-enabled research pipelines.
+
 ---
 ## Data Preprocessing, Storage and Organization
 
