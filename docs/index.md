@@ -23,18 +23,15 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
   </div>
 </nav>
 
-This site serves as a supplementary, structured extension of the associated research work,
-organizing the computational tools, data resources, and platforms that underpin the proposed
-AI-powered infrastructure for materials discovery and advanced manufacturing.
+This site provides a structured overview of the data sources, computational tools, and platforms commonly referenced in contemporary AI-driven materials discovery and advanced manufacturing workflows.
 
-The goal is to improve transparency and navigability across the heterogeneous ecosystem of
-methods referenced in the manuscript, rather than to provide executable implementations.
+Rather than reproducing the technical depth of the manuscript, the goal is to offer a navigable snapshot of the broader ecosystem in which these methods operate.
 
 ## Physical System: Data Collection {#data-collection}
 
 ### Traditional Data Collection {#traditional-data}
 
-Databases derived from experimental and observational workflows that provide chemical, biological, and structural data foundational to materials research.
+This section groups representative sources through which materials data are typically obtained, spanning experimental databases, simulation-driven datasets, and automated extraction pipelines.
 
 | Database | Open Access | Scope |
 |---------|-------------|-------|
@@ -51,7 +48,7 @@ Databases derived from experimental and observational workflows that provide che
 
 ### Synthetic Data and In Silico Simulation {#synthetic-data}
 
-Computational tools and databases used for physics-based modeling and simulation-driven data generation in materials research.
+Simulation-based tools and repositories used to generate structured datasets under controlled physical assumptions.
 
 #### Simulation Softwares
 
@@ -84,7 +81,9 @@ Computational tools and databases used for physics-based modeling and simulation
 <hr class="section-divider">
 
 ### Data Scraping from Publicly Available Sources {#scraping}
-Tools and frameworks used to automatically extract structured and unstructured data from publicly available web sources, including scientific websites, databases, and online repositories.
+
+Frameworks designed to collect structured and semi-structured data from publicly accessible digital sources.
+
 
 #### Web Scraping Tools and Frameworks 
 
@@ -106,7 +105,8 @@ Tools and frameworks used to automatically extract structured and unstructured d
 <hr class="section-divider">
 
 ### Automated Data Extraction from Scientific Literature
-AI-driven tools and language models used to extract structured information from scientific publications, including materials properties, synthesis conditions, and structure–property relationships.
+
+Language-model–driven and NLP-based systems for converting unstructured scientific text into machine-readable data.
 
 #### Literature Extraction Tools and Frameworks
 
@@ -119,7 +119,8 @@ AI-driven tools and language models used to extract structured information from 
 | [Polymer Scholar](https://polymerscholar.org) | LLM-assisted extraction | Yes | Large-scale polymer–property data extraction |
 
 
-The resources curated in this repository reflect the evolving ecosystem of experimental, computational, and AI-driven tools supporting modern materials discovery and advanced manufacturing. By organizing databases, simulation platforms, automation frameworks, and literature-mining technologies within a unified structure, this collection highlights how heterogeneous data sources and digital methodologies can be combined to enable scalable, reproducible, and data-centric research workflows. The intent of this supplementary resource is to provide a transparent and extensible reference point for researchers seeking to navigate, integrate, and build upon the digital infrastructure underlying contemporary materials research.
+Together, these resources illustrate the heterogeneous origins of materials data that underpin data-driven and AI-enabled research pipelines.
+
 
 ---
 ## Data Preprocessing, Storage and Organization
