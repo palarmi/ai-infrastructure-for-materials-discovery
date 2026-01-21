@@ -21,6 +21,14 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
       <a href="#literature-extraction">Literature Extraction</a>
     </div>
   </div>
+  <div class="menu-item">
+  <a href="#data-prep" class="menu-link">Data Infrastructure</a>
+  <div class="dropdown">
+    <a href="#data-preprocessing-tools">Preprocessing Tools</a>
+    <a href="#data-storage">Storage (Cloud & Edge)</a>
+    <a href="#data-organization">Organization & Indexing</a>
+  </div>
+</div>
 </nav>
 
 This site provides a structured overview of the data sources, computational tools, and platforms commonly referenced in contemporary AI-driven materials discovery and advanced manufacturing workflows.
@@ -123,11 +131,11 @@ Language-model–driven and NLP-based systems for converting unstructured scient
 Together, these resources illustrate the heterogeneous origins of materials data that underpin data-driven and AI-enabled research pipelines.
 
 ---
-## Data Preprocessing, Storage and Organization
+## Data Preprocessing, Storage and Organization {#data-prep}
 
-Tools and frameworks used to clean, transform, normalize, and standardize heterogeneous datasets in materials science workflows.
+Core tools, platforms, and standards used to prepare, store, and structure materials data for downstream computational and AI workflows.
 
-#### Data Preprocessing Tools
+#### Data Preprocessing Tools {#data-preprocessing-tools}
 
 | Tool / Framework | Category | Open Source | Primary Use |
 |------------------|----------|-------------|-------------|
@@ -142,8 +150,10 @@ Tools and frameworks used to clean, transform, normalize, and standardize hetero
 | [KNIME](https://www.knime.com) | Visual analytics platform | Yes | Visual preprocessing pipelines and data integration |
 | [Alteryx](https://www.alteryx.com) | Data analytics platform | No | Commercial data blending and preprocessing workflows |
 
-### Data Storage in Cloud and Edge Computing
-Platforms and infrastructures supporting scalable storage and computation for AI-driven materials discovery, including cloud-based and edge-based solutions.
+<hr class="section-divider">
+
+### Data Storage in Cloud and Edge Computing {#data-storage}Cloud and edge infrastructures supporting scalable storage, computation, and deployment of data-intensive materials workflows.
+Cloud and edge infrastructures supporting scalable storage, computation, and deployment of data-intensive materials workflows.
 #### Cloud and Edge Platforms
 
 | Platform / Provider | Computing Paradigm | Open Source | Primary Scope |
@@ -157,8 +167,10 @@ Platforms and infrastructures supporting scalable storage and computation for AI
 | [IBM Cloud](https://www.ibm.com/cloud) | Cloud & hybrid computing | No | Hybrid cloud storage and enterprise computing |
 | [Oracle Cloud](https://www.oracle.com/cloud) | Cloud computing | No | Enterprise cloud storage and databases |
 
-### Data Organization and Indexation
-Frameworks and standards used to structure, index, and manage materials data repositories, enabling scalability, interoperability, and reproducibility.
+<hr class="section-divider">
+
+### Data Organization and Indexation {#data-organization}
+Frameworks and standards designed to structure, index, and maintain consistency across materials data repositories.
 
 #### Data Organization and Indexing Frameworks
 
@@ -171,7 +183,9 @@ Frameworks and standards used to structure, index, and manage materials data rep
 | [AFLOW](https://aflowlib.org) | Materials repository | Yes | Hierarchical indexing of materials data |
 | [Open Materials Database (OMDB)](https://omdb.mathub.io) | Materials database | Yes | Semantic indexing of materials information |
 
-The tools and platforms outlined in this section illustrate the critical role of robust data preprocessing, scalable storage, and effective data organization in enabling AI-driven materials discovery. As datasets grow in size and heterogeneity, the integration of flexible preprocessing frameworks, hybrid cloud–edge storage solutions, and structured data organization strategies becomes essential for maintaining reproducibility, scalability, and long-term usability. Collectively, these components form the backbone of data-centric research infrastructures, supporting efficient analysis, reducing redundant computation, and facilitating sustainable and collaborative materials research workflows.
+Together, these components enable scalable, interoperable, and reproducible handling of materials data across diverse research workflows.
+
+---
 
 ## Data and AI Pipeline
 This section curates core software libraries, model families, and deployment platforms commonly used to build end-to-end data and AI pipelines for materials discovery, characterization, and advanced manufacturing workflows.
