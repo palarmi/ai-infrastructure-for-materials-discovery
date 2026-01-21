@@ -88,3 +88,28 @@ hr.section-divider {
   opacity: 0.95 !important;
 }
 
+
+/* ================================
+   TEXT HIERARCHY (HEADINGS ONLY)
+================================ */
+
+/* H1: default theme color */
+h1 {
+  color: inherit;
+}
+
+/* H2: wine / dark red */
+h2 {
+  color: #990000;
+}
+
+/* H3: deep blue */
+h3 {
+  color: #232F3E;
+}
+
+/* H4: dark neutral gray */
+h4 {
+  color: #4A4A4A;
+}
+
