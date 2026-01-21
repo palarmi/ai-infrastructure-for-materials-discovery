@@ -51,21 +51,6 @@
   color:#990000;
 }
 
-/* Menu top-level links */
-.menu-link {
-  color: #2F3E4E !important;   /* blue-gray */
-  font-weight: 600;
-  text-decoration: none !important;
-  padding-bottom: 4px;
-  border-bottom: 2px solid transparent;
-}
-
-/* Hover effect */
-.menu-item:hover .menu-link {
-  color: #990000 !important;   /* NCSU wine */
-  border-bottom-color: #990000;
-}
-
 /* Section divider (for ---) */
 hr {
   border: 0 !important;
@@ -121,5 +106,68 @@ table a {
 table a:hover {
   color: #990000;
 }
+
+/* ================================
+   SECTION MENU (TOP NAV)
+================================ */
+
+.section-menu{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.menu-item{
+  position: relative;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Top-level menu links */
+.menu-link{
+  color: #2F3E4E !important;   /* blue-gray */
+  font-weight: 600;
+  text-decoration: none !important;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+/* Hover effect */
+.menu-item:hover .menu-link{
+  color: #990000 !important;   /* NCSU wine */
+  border-bottom-color: #990000;
+}
+
+/* Dropdown menu */
+.dropdown{
+  display: none;
+  position: absolute;
+  top: 2.2rem;
+  left: 0;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  min-width: 260px;
+  padding: 0.4rem 0;
+  z-index: 1000;
+}
+
+.menu-item:hover .dropdown{
+  display: block;
+}
+
+.dropdown a{
+  display: block;
+  padding: 0.35rem 1rem;
+  text-decoration: none;
+  color: #2B2B2B;
+  font-weight: 400;
+}
+
+.dropdown a:hover{
+  background: #f5f5f5;
+  color: #990000;
+}
+
 
 
