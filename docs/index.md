@@ -48,6 +48,15 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
     <a href="#accessibility-transparency">Accessibility & Transparency</a>
   </div>
 </div>
+<div class="menu-item">
+  <a href="#emerging-technologies" class="menu-link">Emerging Tech</a>
+  <div class="dropdown">
+    <a href="#quantum-computing">Quantum Computing</a>
+    <a href="#quantum-algorithms">Quantum Algorithms</a>
+    <a href="#quantum-ml">Quantum ML</a>
+    <a href="#blockchain-materials">Blockchain</a>
+  </div>
+</div>
 </nav>
 
 This site provides a structured overview of the data sources, computational tools, and platforms commonly referenced in contemporary AI-driven materials discovery and advanced manufacturing workflows.
@@ -363,19 +372,19 @@ These deployment practices illustrate how open platforms and transparent documen
 
 ---
 
-## Emerging Technologies 
+## Emerging Technologies {#emerging-technologies}
 
 Emerging digital technologies extend current materials discovery pipelines beyond the limits of classical simulation, centralized data architectures, and conventional optimization workflows. 
 
 This section highlights quantum computing and blockchain-enabled systems as complementary directions that support scalability, transparency, and collaborative research in next-generation materials infrastructures.
 
-### Quantum Computing
+### Quantum Computing {#quantum-computing}
 
 Quantum computing offers a fundamentally new approach to modeling complex quantum systems, enabling simulations of electronic structure and strongly correlated materials that are infeasible with classical methods alone. Recent advances in quantum hardware, such as Google’s **Willow** quantum chip, demonstrate progress in error correction and stability, highlighting the potential for accelerating materials discovery through quantum-enabled simulation.
 
 Beyond superconducting qubits, **molecular qubits** based on transition metals, lanthanides, and actinides provide chemically tunable platforms with long coherence times and atomic-scale precision. Their controllability makes them promising candidates for hybrid quantum–classical materials simulations, particularly in chemistry and condensed matter systems.
 
-#### Quantum algorithms for materials simulation
+#### Quantum algorithms for materials simulation {#quantum-algorithms}
 
 While Density Functional Theory (DFT) and Coupled Cluster methods remain foundational, their computational cost scales poorly for large or strongly correlated systems. Quantum algorithms exploit superposition and entanglement to address these limitations.
 
@@ -388,7 +397,7 @@ While Density Functional Theory (DFT) and Coupled Cluster methods remain foundat
 
 Noise mitigation remains a critical challenge across qubit architectures. Active research into **readout-error correction**, **zero-noise extrapolation**, and **randomized compiling** aims to improve practical usability without requiring fully fault-tolerant quantum hardware.
 
-#### Quantum data encoding and hybrid workflows
+#### Quantum Machine Learning {#quantum-ml}
 
 Encoding classical materials data into quantum-compatible formats is essential for quantum chemistry and quantum machine learning workflows.
 
@@ -402,7 +411,7 @@ Encoding classical materials data into quantum-compatible formats is essential f
 
 Hybrid platforms such as **AWS Braket** and **Rigetti Forest SDK** enable seamless transitions between classical preprocessing and quantum execution, reducing workflow friction and improving resource efficiency.
 
-#### Quantum Machine Learning
+### Blockchain for Materials Discovery {#blockchain-materials}
 
 Quantum Machine Learning (QML) integrates quantum mechanics with machine learning to address high-dimensional and combinatorial challenges in materials science. Parameterized quantum circuits enable feature extraction in quantum state space, offering potential advantages over classical representations.
 
