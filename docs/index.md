@@ -145,6 +145,7 @@ Language-model–driven and NLP-based systems for converting unstructured scient
 | [NEMAD](https://github.com/nemad-project) | Hybrid NLP + ML | Yes | Automated parsing and prediction from scientific text |
 | [Polymer Scholar](https://polymerscholar.org) | LLM-assisted extraction | Yes | Large-scale polymer–property data extraction |
 
+
 Together, these resources illustrate the heterogeneous origins of materials data that underpin data-driven and AI-enabled research pipelines.
 
 ---
