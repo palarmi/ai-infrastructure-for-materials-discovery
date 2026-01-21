@@ -145,7 +145,6 @@ Language-model–driven and NLP-based systems for converting unstructured scient
 | [NEMAD](https://github.com/nemad-project) | Hybrid NLP + ML | Yes | Automated parsing and prediction from scientific text |
 | [Polymer Scholar](https://polymerscholar.org) | LLM-assisted extraction | Yes | Large-scale polymer–property data extraction |
 
-
 Together, these resources illustrate the heterogeneous origins of materials data that underpin data-driven and AI-enabled research pipelines.
 
 ---
@@ -209,7 +208,6 @@ Frameworks and standards designed to structure, index, and maintain consistency 
 | [Open Materials Database (OMDB)](https://omdb.mathub.io) | Materials database | Yes | Semantic indexing of materials information |
 
 Together, these components enable scalable, interoperable, and reproducible handling of materials data across diverse research workflows.
-
 ---
 ## Data and AI Pipeline
 
@@ -220,8 +218,8 @@ Tools for parsing materials data, generating descriptors, scaling to high-throug
 
 | Tool / Framework | Category | Open Source | Primary Use |
 |------------------|----------|-------------|-------------|
-| [pymatgen](https://pymatgen.org/) | Materials analysis (Python) | Yes | Structures, symmetry analysis, and property calculations :contentReference[oaicite:0]{index=0} |
-| [matminer](https://hackingmaterials.lbl.gov/matminer/) | Feature engineering (Python) | Yes | Automated descriptor generation for composition/structure/property learning :contentReference[oaicite:1]{index=1} |
+| [pymatgen](https://pymatgen.org/) | Materials analysis (Python) | Yes | Structures, symmetry analysis, and property calculations |
+| [matminer](https://hackingmaterials.lbl.gov/matminer/) | Feature engineering (Python) | Yes | Automated descriptor generation for composition/structure/property learning |
 | [scikit-learn](https://scikit-learn.org) | Classical ML (Python) | Yes | Regression, classification, clustering, PCA, and baselines |
 | [ASE (Atomic Simulation Environment)](https://wiki.fysik.dtu.dk/ase/) | Atomistic workflows | Yes | High-throughput simulation automation and data handling |
 | [TensorFlow](https://www.tensorflow.org) | Deep learning | Yes | Training and deployment of neural models, including real-time pipelines |
@@ -255,7 +253,6 @@ Representative deep learning families used across graphs, multimodal data, and i
 | ML Interatomic Potentials (e.g., MACE, CHGNet) | Local atomic environments | Energies/forces for accelerated simulation | RMSE vs DFT, ranking consistency |
 | DeepXRD-style models | Diffraction patterns | Structure classification / pattern prediction | Accuracy, error metrics |
 
-
 #### Federated Learning for Collaborative Materials Informatics {#federated-learning}
 
 Privacy-preserving model training across institutions while keeping raw datasets local.
@@ -265,7 +262,6 @@ Privacy-preserving model training across institutions while keeping raw datasets
 | Federated training (parameter exchange) | Collaboration across “data islands” | Client heterogeneity, distribution shifts |
 | Secure aggregation / governance layers | Privacy + coordination | Adversarial risks, auditability |
 | Cross-site evaluation | Robustness across labs | Non-i.i.d. data and bias |
-
 
 #### Explainable AI in Materials Science {#xai}
 
@@ -279,7 +275,6 @@ Tools used to interpret model behavior, validate learned relationships, and supp
 | Score-CAM / Grad-CAM | Vision explainability | Yes | Visual evidence maps for CNN decision regions |
 | Attention inspection (e.g., CrabNet-style) | Intrinsic interpretability | Varies | Element/feature importance via attention |
 
-
 #### Generative AI in Materials Science {#generative-ai}
 
 Generative model families used for inverse design, candidate proposal, and exploration of large chemical spaces.
@@ -289,7 +284,6 @@ Generative model families used for inverse design, candidate proposal, and explo
 | VAE | Latent composition/structure encodings | Novel candidates | Validity, novelty, diversity |
 | GAN | Latent + image/structure encodings | Synthetic microstructures/crystals | Fidelity, mode collapse diagnostics |
 | Diffusion Models | Point clouds/graphs/voxels (conditional or unconditional) | Higher-fidelity candidates | Structural realism, conditional accuracy, screening success |
-
 
 #### From LLMs to Agentic AI in Materials Discovery {#agentic-ai}
 
