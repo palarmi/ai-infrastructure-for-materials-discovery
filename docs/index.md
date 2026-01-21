@@ -158,6 +158,7 @@ Platforms and infrastructures supporting scalable storage and computation for AI
 
 ### Data Organization and Indexation
 Frameworks and standards used to structure, index, and manage materials data repositories, enabling scalability, interoperability, and reproducibility.
+
 #### Data Organization and Indexing Frameworks
 
 | Framework / Initiative | Category | Open Source | Primary Focus |
