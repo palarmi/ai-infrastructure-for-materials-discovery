@@ -30,9 +30,10 @@ Rather than reproducing the technical depth of the manuscript, the goal is to of
 ## Physical System: Data Collection {#data-collection}
 This section groups representative sources through which materials data are typically obtained, spanning experimental databases, simulation-driven datasets, and automated extraction pipelines.
 
-#### Traditional Data Collection {#traditional-data}
+### Traditional Data Collection {#traditional-data}
+Databases constructed from experimentally generated data and expert-curated materials records.
 
-
+####  Databases derived from traditional experimental data collection
 | Database | Open Access | Scope |
 |---------|-------------|-------|
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov) | Yes | Chemical properties and bioassays |
