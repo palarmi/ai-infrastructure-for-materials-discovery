@@ -22,12 +22,25 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
     </div>
   </div>
   <div class="menu-item">
-  <a href="#data-prep" class="menu-link">Data Infrastructure</a>
+  <a href="#data-prep" class="menu-link">Data Management</a>
   <div class="dropdown">
     <a href="#data-preprocessing-tools">Preprocessing Tools</a>
     <a href="#data-storage">Storage (Cloud & Edge)</a>
     <a href="#data-organization">Organization & Indexing</a>
   </div>
+  <div class="menu-item">
+  <a href="#ai-modeling" class="menu-link">AI Modeling</a>
+  <div class="dropdown">
+    <a href="#traditional-ml">Traditional ML</a>
+    <a href="#deep-learning">Deep Learning</a>
+    <a href="#federated-learning">Federated Learning</a>
+    <a href="#xai">Explainable AI</a>
+    <a href="#generative-ai">Generative AI</a>
+    <a href="#agentic-ai">Agentic AI</a>
+    <a href="#ai-cloud">Cloud AI</a>
+  </div>
+</div>
+
 </div>
 </nav>
 
@@ -205,10 +218,10 @@ Tools for parsing materials data, generating descriptors, scaling to high-throug
 | [TensorFlow](https://www.tensorflow.org) | Deep learning | Yes | Training and deployment of neural models, including real-time pipelines |
 | [PyTorch](https://pytorch.org) | Deep learning | Yes | Flexible research workflows; supports RL and rapid prototyping |
 | [RDKit](https://www.rdkit.org) | Cheminformatics | Yes | Molecular fingerprints, descriptors, and chemical feature extraction |
+---
+### AI Modeling {#ai-modeling}
 
-### AI Modeling
-
-#### Traditional Machine Learning Models in Materials Science
+#### Traditional Machine Learning Models in Materials Science {#traditional-ml}
 
 Representative ML families commonly used for property screening, synthesis/process optimization, and baseline modeling.
 
@@ -220,7 +233,9 @@ Representative ML families commonly used for property screening, synthesis/proce
 | Shallow Neural Networks (ANN) | Tabular descriptors | Property prediction | MAE/RMSE, R² |
 | Bayesian Optimization | Surrogate + feedback loop | Suggested experiments / optima | Regret, convergence, sample efficiency |
 
-#### Deep Learning Models for Material Property Prediction
+<hr class="section-divider">
+
+#### Deep Learning Models for Material Property Prediction {#deep-learning}
 
 Representative deep learning families used across graphs, multimodal data, and imaging/sensing pipelines.
 
@@ -232,7 +247,9 @@ Representative deep learning families used across graphs, multimodal data, and i
 | ML Interatomic Potentials (e.g., MACE, CHGNet) | Local atomic environments | Energies/forces for accelerated simulation | RMSE vs DFT, ranking consistency |
 | DeepXRD-style models | Diffraction patterns | Structure classification / pattern prediction | Accuracy, error metrics |
 
-#### Federated Learning for Collaborative Materials Informatics
+<hr class="section-divider">
+
+#### Federated Learning for Collaborative Materials Informatics {#federated-learning}
 
 Privacy-preserving model training across institutions while keeping raw datasets local.
 
@@ -242,7 +259,9 @@ Privacy-preserving model training across institutions while keeping raw datasets
 | Secure aggregation / governance layers | Privacy + coordination | Adversarial risks, auditability |
 | Cross-site evaluation | Robustness across labs | Non-i.i.d. data and bias |
 
-#### Explainable AI in Materials Science
+<hr class="section-divider">
+
+#### Explainable AI in Materials Science {#xai}
 
 Tools used to interpret model behavior, validate learned relationships, and support actionable design insight
 
@@ -254,7 +273,9 @@ Tools used to interpret model behavior, validate learned relationships, and supp
 | Score-CAM / Grad-CAM | Vision explainability | Yes | Visual evidence maps for CNN decision regions |
 | Attention inspection (e.g., CrabNet-style) | Intrinsic interpretability | Varies | Element/feature importance via attention |
 
-#### Generative AI in Materials Science
+<hr class="section-divider">
+
+#### Generative AI in Materials Science {#generative-ai}
 
 Generative model families used for inverse design, candidate proposal, and exploration of large chemical spaces.
 
@@ -264,8 +285,9 @@ Generative model families used for inverse design, candidate proposal, and explo
 | GAN | Latent + image/structure encodings | Synthetic microstructures/crystals | Fidelity, mode collapse diagnostics |
 | Diffusion Models | Point clouds/graphs/voxels (conditional or unconditional) | Higher-fidelity candidates | Structural realism, conditional accuracy, screening success |
 
+<hr class="section-divider">
 
-#### From LLMs to Agentic AI in Materials Discovery
+#### From LLMs to Agentic AI in Materials Discovery {#agentic-ai}
 
 Representative agentic / multi-agent directions (planning + tool-use + iteration). (Links point to primary sources or public repositories where available.)
 
@@ -276,7 +298,9 @@ Representative agentic / multi-agent directions (planning + tool-use + iteration
 | [MatAgent (GitHub)](https://github.com/adibgpt/MatAgent) | Multi-agent LLM framework | Yes | Physics-aware multi-agent workflow |
 | [MOFGPT (ACS JCIM, 2025)](https://pubs.acs.org/doi/10.1021/acs.jcim.5c01625) | LLM + design | No (paper) | LLM-driven MOF design direction|
 
-#### AI in Cloud-Based Infrastructure for Materials Science
+<hr class="section-divider">
+
+#### AI in Cloud-Based Infrastructure for Materials Science {#ai-cloud}
 
 Cloud platforms and managed services commonly used to scale model training, experiments, and deployment.
 
@@ -288,16 +312,13 @@ Cloud platforms and managed services commonly used to scale model training, expe
 | [IBM Watson](https://www.ibm.com/watson) | AI services | No | NLP and enterprise AI tooling |
 
 The resources in this section map the practical building blocks required to implement modern data and AI pipelines in materials discovery and advanced manufacturing—from descriptor generation and scalable processing, to predictive, explainable, and generative modeling, and finally to deployment-ready cloud infrastructure. Together, these components enable modular, reproducible workflows where data transformation, model development, evaluation, and iterative improvement can be integrated into end-to-end pipelines that support both scientific rigor and operational scalability.
-
+---
 ## Open-Source Deployment 
-
-
-## 4. Open-Source Deployment
 
 Deploying AI-enabled platforms for materials discovery and advanced manufacturing requires deployment practices that prioritize **accessibility, reproducibility, and scalability**, while maintaining transparency and modularity. Open-source deployment lowers barriers to adoption, enables community verification, and supports long-term reuse across research groups and application domains.
 
 
-### 4.1 AI-Infrastructure Platforms and Deployment Tools
+### AI-Infrastructure Platforms and Deployment Tools
 
 Version control systems and open repositories form the backbone of collaborative AI deployment. They enable structured releases, reproducibility, and coordinated development across distributed teams.
 
