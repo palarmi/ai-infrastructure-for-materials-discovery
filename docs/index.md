@@ -41,6 +41,13 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
     <a href="#ai-modeling">AI Modeling</a>
   </div>
 </div>
+<div class="menu-item">
+  <a href="#open-source-deployment" class="menu-link">Deployment</a>
+  <div class="dropdown">
+    <a href="#deployment-platforms">Infrastructure Platforms</a>
+    <a href="#accessibility-transparency">Accessibility & Transparency</a>
+  </div>
+</div>
 </nav>
 
 This site provides a structured overview of the data sources, computational tools, and platforms commonly referenced in contemporary AI-driven materials discovery and advanced manufacturing workflows.
@@ -209,7 +216,7 @@ Together, these components enable scalable, interoperable, and reproducible hand
 
 Core software components and modeling layers that together form end-to-end data and AI pipelines for materials discovery, characterization, and advanced manufacturing.
 
-### Data Processing {data-processing}
+### Data Processing {#data-processing}
 Libraries and frameworks used to parse materials data, generate descriptors, and support scalable data transformation within AI-driven workflows.
 
 | Tool / Framework | Category | Open Source | Primary Use |
@@ -229,8 +236,6 @@ Modeling paradigms that operate downstream of data processing to enable predicti
 
 #### Traditional Machine Learning Models in Materials Science {#traditional-ml}
 
-Classical machine learning approaches commonly applied to structured and descriptor-based materials datasets.
-
 | Model Family | Typical Inputs | Typical Outputs | Common Evaluation Metrics |
 |-------------|----------------|----------------|---------------------------|
 | Support Vector Machines (SVM) | Handcrafted descriptors | Class / property prediction | Accuracy, F1, MAE/RMSE |
@@ -240,8 +245,6 @@ Classical machine learning approaches commonly applied to structured and descrip
 | Bayesian Optimization | Surrogate + feedback loop | Suggested experiments / optima | Regret, convergence, sample efficiency |
 
 #### Deep Learning Models for Material Property Prediction {#deep-learning}
-
-Deep learning architectures designed to operate on graph-based, image-based, and multimodal materials representations.
 
 | Model Family (Examples) | Typical Representations | Primary Scope | Common Evaluation Metrics |
 |-------------------------|-------------------------|---------------|---------------------------|
@@ -253,8 +256,6 @@ Deep learning architectures designed to operate on graph-based, image-based, and
 
 #### Federated Learning for Collaborative Materials Informatics {#federated-learning}
 
-Distributed learning paradigms that enable collaborative model training across institutions while preserving data locality.
-
 | Component | What It Enables | Typical Challenges |
 |----------|------------------|-------------------|
 | Federated training (parameter exchange) | Collaboration across “data islands” | Client heterogeneity, distribution shifts |
@@ -262,8 +263,6 @@ Distributed learning paradigms that enable collaborative model training across i
 | Cross-site evaluation | Robustness across labs | Non-i.i.d. data and bias |
 
 #### Explainable AI in Materials Science {#xai}
-
-Methods and tools used to interpret model behavior and assess the relevance of learned features in materials applications.
 
 | Tool / Method | Type | Open Source | Primary Use |
 |--------------|------|-------------|-------------|
@@ -275,8 +274,6 @@ Methods and tools used to interpret model behavior and assess the relevance of l
 
 #### Generative AI in Materials Science {#generative-ai}
 
-Generative modeling approaches used for inverse design and exploration of large chemical and materials spaces.
-
 | Generative Family | Typical Representations | Primary Outputs | Common Evaluation Criteria |
 |------------------|-------------------------|----------------|----------------------------|
 | VAE | Latent composition/structure encodings | Novel candidates | Validity, novelty, diversity |
@@ -284,8 +281,6 @@ Generative modeling approaches used for inverse design and exploration of large 
 | Diffusion Models | Point clouds/graphs/voxels (conditional or unconditional) | Higher-fidelity candidates | Structural realism, conditional accuracy, screening success |
 
 #### From LLMs to Agentic AI in Materials Discovery {#agentic-ai}
-
-Emerging language-model–driven and agent-based systems that integrate planning, tool use, and iterative refinement.
 
 | System / Direction | Category | Open Access | Notes |
 |-------------------|----------|-------------|------|
@@ -295,8 +290,6 @@ Emerging language-model–driven and agent-based systems that integrate planning
 | [MOFGPT (ACS JCIM, 2025)](https://pubs.acs.org/doi/10.1021/acs.jcim.5c01625) | LLM + design | No (paper) | LLM-driven MOF design direction|
 
 #### AI in Cloud-Based Infrastructure for Materials Science {#ai-cloud}
-
-Managed platforms and services that support scalable training, deployment, and orchestration of materials AI pipelines.
 
 | Platform | Category | Open Source | Primary Use |
 |---------|----------|-------------|-------------|
