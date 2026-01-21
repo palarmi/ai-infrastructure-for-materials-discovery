@@ -84,10 +84,10 @@ Computational tools and databases used for physics-based modeling and simulation
 
 <hr class="section-divider">
 
-### Data Scraping from Publicly Available Sources
+### Data Scraping from Publicly Available Sources {#scraping}
 Tools and frameworks used to automatically extract structured and unstructured data from publicly available web sources, including scientific websites, databases, and online repositories.
 
-### Data Scraping from Publicly Available Sources {#scraping}
+#### Web Scraping Tools and Frameworks 
 
 | Tool / Framework | Open Source | Primary Use | Typical Scope |
 |------------------|-------------|-------------|---------------|
