@@ -49,11 +49,9 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
   </div>
 </div>
 <div class="menu-item">
-  <a href="#emerging-technologies" class="menu-link">Emerging Tech</a>
+  <a href="#emerging-technologies" class="menu-link">Emerging Technologies</a>
   <div class="dropdown">
     <a href="#quantum-computing">Quantum Computing</a>
-    <a href="#quantum-algorithms">Quantum Algorithms</a>
-    <a href="#quantum-ml">Quantum ML</a>
     <a href="#blockchain-materials">Blockchain</a>
   </div>
 </div>
@@ -380,13 +378,9 @@ This section highlights quantum computing and blockchain-enabled systems as comp
 
 ### Quantum Computing {#quantum-computing}
 
-Quantum computing offers a fundamentally new approach to modeling complex quantum systems, enabling simulations of electronic structure and strongly correlated materials that are infeasible with classical methods alone. Recent advances in quantum hardware, such as Google’s **Willow** quantum chip, demonstrate progress in error correction and stability, highlighting the potential for accelerating materials discovery through quantum-enabled simulation.
-
-Beyond superconducting qubits, **molecular qubits** based on transition metals, lanthanides, and actinides provide chemically tunable platforms with long coherence times and atomic-scale precision. Their controllability makes them promising candidates for hybrid quantum–classical materials simulations, particularly in chemistry and condensed matter systems.
+Quantum computing introduces alternative computational paradigms for simulating quantum-mechanical phenomena that are difficult to resolve using classical methods alone. In materials science, quantum approaches are primarily explored for electronic structure calculations, strongly correlated systems, and high-dimensional optimization problems, often in hybrid quantum–classical workflows.
 
 #### Quantum algorithms for materials simulation {#quantum-algorithms}
-
-While Density Functional Theory (DFT) and Coupled Cluster methods remain foundational, their computational cost scales poorly for large or strongly correlated systems. Quantum algorithms exploit superposition and entanglement to address these limitations.
 
 | Algorithm | Application in materials science |
 |----------|----------------------------------|
@@ -395,11 +389,10 @@ While Density Functional Theory (DFT) and Coupled Cluster methods remain foundat
 | Quantum Phase Estimation (QPE) | High-accuracy energetics for alloys and corrosion-resistant systems |
 | Grover’s Search | Optimization in alloy and materials design spaces |
 
+While Density Functional Theory (DFT) and Coupled Cluster methods remain foundational, their computational cost scales poorly for large or strongly correlated systems. Quantum algorithms exploit superposition and entanglement to address these limitations.
 Noise mitigation remains a critical challenge across qubit architectures. Active research into **readout-error correction**, **zero-noise extrapolation**, and **randomized compiling** aims to improve practical usability without requiring fully fault-tolerant quantum hardware.
 
-#### Quantum Machine Learning {#quantum-ml}
-
-Encoding classical materials data into quantum-compatible formats is essential for quantum chemistry and quantum machine learning workflows.
+#### Quantum data encoding and hybrid workflows
 
 | Platform | Capability |
 |--------|------------|
@@ -409,11 +402,9 @@ Encoding classical materials data into quantum-compatible formats is essential f
 | PySCF / ORCA | Classical preparation of molecular orbitals and Hamiltonians |
 | D-Wave Ocean SDK | QUBO and Ising formulations for optimization |
 
-Hybrid platforms such as **AWS Braket** and **Rigetti Forest SDK** enable seamless transitions between classical preprocessing and quantum execution, reducing workflow friction and improving resource efficiency.
+Practical quantum materials workflows rely on classical preprocessing combined with quantum execution. The tools above support data encoding, hybrid optimization, and integration with existing simulation pipelines.
 
-### Blockchain for Materials Discovery {#blockchain-materials}
-
-Quantum Machine Learning (QML) integrates quantum mechanics with machine learning to address high-dimensional and combinatorial challenges in materials science. Parameterized quantum circuits enable feature extraction in quantum state space, offering potential advantages over classical representations.
+#### Quantum Machine Learning
 
 | QML model | Representative use cases |
 |----------|-------------------------|
@@ -423,17 +414,15 @@ Quantum Machine Learning (QML) integrates quantum mechanics with machine learnin
 | Quantum SVM (QSVM) | Kernel-based separation of complex datasets |
 | Quantum Gaussian Process Regression | Property prediction with quantum kernels |
 
-QML is particularly well-suited for **optimization problems**, often encoded as **Quadratic Unconstrained Binary Optimization (QUBO)** formulations. These approaches enable efficient exploration of large design spaces for metamaterials, optical structures, and energy systems.
+Quantum Machine Learning (QML) explores the use of parameterized quantum circuits for feature representation, classification, and optimization in high-dimensional materials spaces. Current applications focus on proof-of-concept studies, hybrid models, and optimization tasks encoded as QUBO or Ising problems.
 
-As hardware and hybrid workflows mature, QML is positioned to accelerate sustainable materials discovery while reducing the environmental footprint of traditional trial-and-error experimentation.
+<hr class="section-divider">
 
-### Blockchain for Materials Discovery
+### Blockchain for Materials Discovery {#blockchain-materials}
 
-Blockchain technology introduces decentralized mechanisms for **data security, provenance tracking, and collaborative research**, addressing persistent challenges in materials data management.
+Blockchain-enabled systems address challenges in data provenance, secure sharing, and collaborative governance of materials data across distributed research environments. These approaches are typically integrated with off-chain storage and existing data infrastructures rather than used as standalone solutions.
 
 #### Blockchain for Data Organization and Storage
-
-Materials datasets span multiple length scales and property types, complicating standardization and indexing. Blockchain-enabled architectures address these challenges through hybrid on-chain/off-chain storage models.
 
 | Technique | Benefit |
 |---------|---------|
@@ -441,12 +430,9 @@ Materials datasets span multiple length scales and property types, complicating 
 | On-chain metadata + off-chain storage (IPFS) | Scalability without sacrificing traceability |
 | Physical Information Files (PIF) | Hierarchical representation of materials properties |
 
-Adaptive indexing strategies are emerging to support efficient querying in decentralized environments, though scalability and energy efficiency remain active research areas.
-
+Hybrid blockchain architectures combine immutable metadata with scalable off-chain storage to support traceability and data integrity in materials repositories.
 
 #### Secure and Transparent Data Sharing
-
-Blockchain supports **immutable audit trails**, **access control**, and **tamper resistance**, which are essential for collaborative materials research across institutions and jurisdictions.
 
 | Mechanism | Purpose |
 |---------|---------|
@@ -454,12 +440,9 @@ Blockchain supports **immutable audit trails**, **access control**, and **tamper
 | Permissioned blockchains (e.g., Hyperledger Fabric) | Controlled access and compliance |
 | Cryptographic protocols | Confidentiality-preserving transparency |
 
-These features are particularly relevant for regulated domains such as nuclear materials, aerospace composites, and advanced manufacturing.
-
+Blockchain mechanisms enable controlled access, auditability, and tamper resistance, supporting collaborative research in regulated or multi-institutional settings.
 
 #### Collaborative and Open Research
-
-Blockchain infrastructures foster decentralized collaboration by enabling secure, reproducible, and FAIR-aligned data sharing.
 
 | Platform / Concept | Contribution |
 |------------------|--------------|
@@ -468,9 +451,7 @@ Blockchain infrastructures foster decentralized collaboration by enabling secure
 | Makerchain | Provenance tracking across manufacturing lifecycles |
 | MDCS / NMRR | Materials Genome Initiative data curation |
 
-The integration of **blockchain with federated learning** represents a powerful paradigm for decentralized AI, preserving data sovereignty while enabling collective intelligence across distributed research ecosystems.
-
-Quantum computing and blockchain technologies represent complementary pillars of next-generation materials infrastructure. Quantum approaches extend the computational frontier for simulating complex materials systems, while blockchain-enabled frameworks provide the governance, traceability, and collaboration mechanisms needed for scalable and trustworthy research. Together, these emerging technologies support a future in which materials discovery is not only faster and more predictive, but also more transparent, sustainable, and globally integrated.
+Decentralized infrastructures integrating blockchain and federated learning enable collaborative materials discovery while preserving data sovereignty and institutional boundaries
 
 
 
@@ -478,8 +459,5 @@ Quantum computing and blockchain technologies represent complementary pillars of
 ## Associated publication
 
 
-
-**License:** CC BY 4.0  
-© 2026 
 
 
