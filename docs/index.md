@@ -108,7 +108,7 @@ Tools and frameworks used to automatically extract structured and unstructured d
 ### Automated Data Extraction from Scientific Literature
 AI-driven tools and language models used to extract structured information from scientific publications, including materials properties, synthesis conditions, and structure–property relationships.
 
-### Automated Data Extraction from Scientific Literature {#literature-extraction}
+#### Literature Extraction Tools and Frameworks
 
 | Tool / Framework | Approach | Open Source | Primary Use |
 |------------------|----------|-------------|-------------|
