@@ -47,12 +47,7 @@ Databases derived from experimental and observational workflows that provide che
 | [Inorganic Crystal Structure Database (ICSD)](https://icsd.products.fiz-karlsruhe.de) | No | Inorganic crystal structures |
 | [Protein Data Bank (PDB)](https://www.rcsb.org) | Yes | Protein and nucleic acid structures |
 
-
----
-
 <hr class="section-divider">
-
-
 
 ### Synthetic Data and In Silico Simulation {#synthetic-data}
 
@@ -86,6 +81,8 @@ Computational tools and databases used for physics-based modeling and simulation
 | [AFLOWlib](https://aflowlib.org) | Yes | Repository of calculated and experimental materials data |
 | [NOMAD](https://nomad-lab.eu) | Yes | Computational and experimental materials science datasets |
 
+<hr class="section-divider">
+
 ### Data Scraping from Publicly Available Sources
 Tools and frameworks used to automatically extract structured and unstructured data from publicly available web sources, including scientific websites, databases, and online repositories.
 
@@ -106,6 +103,8 @@ Tools and frameworks used to automatically extract structured and unstructured d
 | [Helium](https://github.com/mherrmann/helium) | Yes | Browser automation (Python) | Simple scraping and automation tasks |
 | [MechanicalSoup](https://mechanicalsoup.readthedocs.io) | Yes | Automated web interaction | Static and form-based websites |
 
+<hr class="section-divider">
+
 ### Automated Data Extraction from Scientific Literature
 AI-driven tools and language models used to extract structured information from scientific publications, including materials properties, synthesis conditions, and structure–property relationships.
 
@@ -122,6 +121,7 @@ AI-driven tools and language models used to extract structured information from 
 
 The resources curated in this repository reflect the evolving ecosystem of experimental, computational, and AI-driven tools supporting modern materials discovery and advanced manufacturing. By organizing databases, simulation platforms, automation frameworks, and literature-mining technologies within a unified structure, this collection highlights how heterogeneous data sources and digital methodologies can be combined to enable scalable, reproducible, and data-centric research workflows. The intent of this supplementary resource is to provide a transparent and extensible reference point for researchers seeking to navigate, integrate, and build upon the digital infrastructure underlying contemporary materials research.
 
+---
 ## Data Preprocessing, Storage and Organization
 
 Tools and frameworks used to clean, transform, normalize, and standardize heterogeneous datasets in materials science workflows.
