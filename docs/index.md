@@ -135,8 +135,11 @@ Together, these resources illustrate the heterogeneous origins of materials data
 
 Core tools, platforms, and standards used to prepare, store, and structure materials data for downstream computational and AI workflows.
 
-#### Data Preprocessing Tools {#data-preprocessing-tools}
+### Data Preprocessing Tools {#data-preprocessing-tools}
 
+Software frameworks used to clean, transform, and standardize heterogeneous materials datasets prior to modeling or analysis.
+
+##### Tools for data preprocessing and feature preparation
 | Tool / Framework | Category | Open Source | Primary Use |
 |------------------|----------|-------------|-------------|
 | [Microsoft Excel](https://www.microsoft.com/excel) | Spreadsheet tool | No | Basic, small-scale data cleaning and inspection |
@@ -150,10 +153,13 @@ Core tools, platforms, and standards used to prepare, store, and structure mater
 | [KNIME](https://www.knime.com) | Visual analytics platform | Yes | Visual preprocessing pipelines and data integration |
 | [Alteryx](https://www.alteryx.com) | Data analytics platform | No | Commercial data blending and preprocessing workflows |
 
+
 <hr class="section-divider">
 
-### Data Storage in Cloud and Edge Computing {#data-storage}Cloud and edge infrastructures supporting scalable storage, computation, and deployment of data-intensive materials workflows.
+### Data Storage in Cloud and Edge Computing {#data-storage}
+
 Cloud and edge infrastructures supporting scalable storage, computation, and deployment of data-intensive materials workflows.
+
 #### Cloud and Edge Platforms
 
 | Platform / Provider | Computing Paradigm | Open Source | Primary Scope |
@@ -170,6 +176,7 @@ Cloud and edge infrastructures supporting scalable storage, computation, and dep
 <hr class="section-divider">
 
 ### Data Organization and Indexation {#data-organization}
+
 Frameworks and standards designed to structure, index, and maintain consistency across materials data repositories.
 
 #### Data Organization and Indexing Frameworks
