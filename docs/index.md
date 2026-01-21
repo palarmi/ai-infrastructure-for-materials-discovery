@@ -171,7 +171,6 @@ Software frameworks used to clean, transform, and standardize heterogeneous mate
 | [KNIME](https://www.knime.com) | Visual analytics platform | Yes | Visual preprocessing pipelines and data integration |
 | [Alteryx](https://www.alteryx.com) | Data analytics platform | No | Commercial data blending and preprocessing workflows |
 
-
 <hr class="section-divider">
 
 ### Data Storage in Cloud and Edge Computing {#data-storage}
