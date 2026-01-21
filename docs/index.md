@@ -23,6 +23,7 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
   </div>
 </nav>
 
+
 This site serves as a supplementary, structured extension of the associated research work,
 organizing the computational tools, data resources, and platforms that underpin the proposed
 AI-powered infrastructure for materials discovery and advanced manufacturing.
