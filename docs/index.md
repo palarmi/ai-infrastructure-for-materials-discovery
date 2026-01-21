@@ -129,7 +129,6 @@ Language-model–driven and NLP-based systems for converting unstructured scient
 | [Polymer Scholar](https://polymerscholar.org) | LLM-assisted extraction | Yes | Large-scale polymer–property data extraction |
 
 Together, these resources illustrate the heterogeneous origins of materials data that underpin data-driven and AI-enabled research pipelines.
-
 ---
 ## Data Preprocessing, Storage and Organization {#data-prep}
 
@@ -191,9 +190,7 @@ Frameworks and standards designed to structure, index, and maintain consistency 
 | [Open Materials Database (OMDB)](https://omdb.mathub.io) | Materials database | Yes | Semantic indexing of materials information |
 
 Together, these components enable scalable, interoperable, and reproducible handling of materials data across diverse research workflows.
-
 ---
-
 ## Data and AI Pipeline
 This section curates core software libraries, model families, and deployment platforms commonly used to build end-to-end data and AI pipelines for materials discovery, characterization, and advanced manufacturing workflows.
 ### Data Processing
