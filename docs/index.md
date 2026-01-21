@@ -12,6 +12,7 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
 </p>
 
 <nav class="section-menu">
+  <!-- Data -->
   <div class="menu-item">
     <a href="#data-collection" class="menu-link">Data</a>
     <div class="dropdown">
@@ -21,27 +22,30 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
       <a href="#literature-extraction">Literature Extraction</a>
     </div>
   </div>
-  <div class="menu-item">
-  <a href="#data-prep" class="menu-link">Data Management</a>
-  <div class="dropdown">
-    <a href="#data-preprocessing-tools">Preprocessing Tools</a>
-    <a href="#data-storage">Storage (Cloud & Edge)</a>
-    <a href="#data-organization">Organization & Indexing</a>
-  </div>
-  <div class="menu-item">
-  <a href="#ai-modeling" class="menu-link">AI Modeling</a>
-  <div class="dropdown">
-    <a href="#traditional-ml">Traditional ML</a>
-    <a href="#deep-learning">Deep Learning</a>
-    <a href="#federated-learning">Federated Learning</a>
-    <a href="#xai">Explainable AI</a>
-    <a href="#generative-ai">Generative AI</a>
-    <a href="#agentic-ai">Agentic AI</a>
-    <a href="#ai-cloud">Cloud AI</a>
-  </div>
-</div>
 
-</div>
+  <!-- Data Management -->
+  <div class="menu-item">
+    <a href="#data-prep" class="menu-link">Data Management</a>
+    <div class="dropdown">
+      <a href="#data-preprocessing-tools">Preprocessing Tools</a>
+      <a href="#data-storage">Storage (Cloud & Edge)</a>
+      <a href="#data-organization">Organization & Indexing</a>
+    </div>
+  </div>
+
+  <!-- AI Modeling -->
+  <div class="menu-item">
+    <a href="#ai-modeling" class="menu-link">AI Modeling</a>
+    <div class="dropdown">
+      <a href="#traditional-ml">Traditional ML</a>
+      <a href="#deep-learning">Deep Learning</a>
+      <a href="#federated-learning">Federated Learning</a>
+      <a href="#xai">Explainable AI</a>
+      <a href="#generative-ai">Generative AI</a>
+      <a href="#agentic-ai">Agentic AI</a>
+      <a href="#ai-cloud">Cloud AI</a>
+    </div>
+  </div>
 </nav>
 
 This site provides a structured overview of the data sources, computational tools, and platforms commonly referenced in contemporary AI-driven materials discovery and advanced manufacturing workflows.
