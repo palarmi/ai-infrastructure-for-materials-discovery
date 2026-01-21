@@ -146,6 +146,7 @@ Language-model–driven and NLP-based systems for converting unstructured scient
 | [Polymer Scholar](https://polymerscholar.org) | LLM-assisted extraction | Yes | Large-scale polymer–property data extraction |
 
 Together, these resources illustrate the heterogeneous origins of materials data that underpin data-driven and AI-enabled research pipelines.
+
 ---
 ## Data Preprocessing, Storage and Organization {#data-prep}
 
@@ -156,6 +157,7 @@ Core tools, platforms, and standards used to prepare, store, and structure mater
 Software frameworks used to clean, transform, and standardize heterogeneous materials datasets prior to modeling or analysis.
 
 ##### Tools for data preprocessing and feature preparation
+
 | Tool / Framework | Category | Open Source | Primary Use |
 |------------------|----------|-------------|-------------|
 | [Microsoft Excel](https://www.microsoft.com/excel) | Spreadsheet tool | No | Basic, small-scale data cleaning and inspection |
@@ -225,6 +227,7 @@ Tools for parsing materials data, generating descriptors, scaling to high-throug
 | [TensorFlow](https://www.tensorflow.org) | Deep learning | Yes | Training and deployment of neural models, including real-time pipelines |
 | [PyTorch](https://pytorch.org) | Deep learning | Yes | Flexible research workflows; supports RL and rapid prototyping |
 | [RDKit](https://www.rdkit.org) | Cheminformatics | Yes | Molecular fingerprints, descriptors, and chemical feature extraction |
+
 ---
 ### AI Modeling {#ai-modeling}
 
@@ -240,8 +243,6 @@ Representative ML families commonly used for property screening, synthesis/proce
 | Shallow Neural Networks (ANN) | Tabular descriptors | Property prediction | MAE/RMSE, R² |
 | Bayesian Optimization | Surrogate + feedback loop | Suggested experiments / optima | Regret, convergence, sample efficiency |
 
-<hr class="section-divider">
-
 #### Deep Learning Models for Material Property Prediction {#deep-learning}
 
 Representative deep learning families used across graphs, multimodal data, and imaging/sensing pipelines.
@@ -254,7 +255,6 @@ Representative deep learning families used across graphs, multimodal data, and i
 | ML Interatomic Potentials (e.g., MACE, CHGNet) | Local atomic environments | Energies/forces for accelerated simulation | RMSE vs DFT, ranking consistency |
 | DeepXRD-style models | Diffraction patterns | Structure classification / pattern prediction | Accuracy, error metrics |
 
-<hr class="section-divider">
 
 #### Federated Learning for Collaborative Materials Informatics {#federated-learning}
 
@@ -266,7 +266,6 @@ Privacy-preserving model training across institutions while keeping raw datasets
 | Secure aggregation / governance layers | Privacy + coordination | Adversarial risks, auditability |
 | Cross-site evaluation | Robustness across labs | Non-i.i.d. data and bias |
 
-<hr class="section-divider">
 
 #### Explainable AI in Materials Science {#xai}
 
@@ -280,7 +279,6 @@ Tools used to interpret model behavior, validate learned relationships, and supp
 | Score-CAM / Grad-CAM | Vision explainability | Yes | Visual evidence maps for CNN decision regions |
 | Attention inspection (e.g., CrabNet-style) | Intrinsic interpretability | Varies | Element/feature importance via attention |
 
-<hr class="section-divider">
 
 #### Generative AI in Materials Science {#generative-ai}
 
@@ -292,7 +290,6 @@ Generative model families used for inverse design, candidate proposal, and explo
 | GAN | Latent + image/structure encodings | Synthetic microstructures/crystals | Fidelity, mode collapse diagnostics |
 | Diffusion Models | Point clouds/graphs/voxels (conditional or unconditional) | Higher-fidelity candidates | Structural realism, conditional accuracy, screening success |
 
-<hr class="section-divider">
 
 #### From LLMs to Agentic AI in Materials Discovery {#agentic-ai}
 
@@ -304,8 +301,6 @@ Representative agentic / multi-agent directions (planning + tool-use + iteration
 | [MAPPS (arXiv:2506.05616)](https://arxiv.org/html/2506.05616v1) | Autonomy framework | Yes | Planning + physics + agent coordination |
 | [MatAgent (GitHub)](https://github.com/adibgpt/MatAgent) | Multi-agent LLM framework | Yes | Physics-aware multi-agent workflow |
 | [MOFGPT (ACS JCIM, 2025)](https://pubs.acs.org/doi/10.1021/acs.jcim.5c01625) | LLM + design | No (paper) | LLM-driven MOF design direction|
-
-<hr class="section-divider">
 
 #### AI in Cloud-Based Infrastructure for Materials Science {#ai-cloud}
 
