@@ -38,7 +38,7 @@ AI-Powered Open-Source Infrastructure for Accelerating Materials Discovery and A
   <a href="#data-and-ai-pipeline" class="menu-link">Data & AI Pipeline</a>
   <div class="dropdown">
     <a href="#data-processing">Data Processing</a>
-    <a href="#ai-modeling">AI Modeling</a>>
+    <a href="#ai-modeling">AI Modeling</a>
   </div>
 </div>
 </nav>
@@ -308,21 +308,19 @@ Managed platforms and services that support scalable training, deployment, and o
 These components illustrate how data processing, modeling, and deployment layers are integrated into cohesive AI pipelines supporting modern materials research.
 
 ---
-## Open-Source Deployment 
+## Open-Source Deployment {#open-source-deployment}
 
-Deploying AI-enabled platforms for materials discovery and advanced manufacturing requires deployment practices that prioritize **accessibility, reproducibility, and scalability**, while maintaining transparency and modularity. Open-source deployment lowers barriers to adoption, enables community verification, and supports long-term reuse across research groups and application domains.
+Deployment practices that support reproducible, modular, and accessible AI-enabled systems for materials discovery and advanced manufacturing.
 
+### AI Infrastructure Platforms and Deployment Tools {#deployment-platforms}
 
-### AI-Infrastructure Platforms and Deployment Tools
-
-Version control systems and open repositories form the backbone of collaborative AI deployment. They enable structured releases, reproducibility, and coordinated development across distributed teams.
+Platforms and tools commonly used to deploy, maintain, and share AI-based materials workflows in collaborative research settings.
 
 #### Core collaboration and infrastructure platforms
 
 | Platform | Open / Free | Advantage | Typical Use |
 |--------|-------------|-----------|-------------|
 | [GitHub](https://github.com) | Free tier | Version control, collaboration, CI/CD | Hosting curated resources, documentation, and lightweight web pages |
-
 
 #### Materials-focused open ecosystems and repositories
 
@@ -331,8 +329,6 @@ Version control systems and open repositories form the backbone of collaborative
 | [Materials Project](https://materialsproject.org) | Yes | Computed materials datasets and APIs |
 | [pymatgen (Materials Virtual Lab)](https://github.com/materialsproject/pymatgen) | Yes | Programmatic materials analysis and property derivation |
 | [OpenKIM](https://openkim.org) | Yes | Curated interatomic potentials and validation workflows |
-
-
 
 #### Deployment enablers (web + reproducibility)
 
@@ -343,19 +339,11 @@ Version control systems and open repositories form the backbone of collaborative
 | [Flask](https://flask.palletsprojects.com) | Yes | Lightweight APIs for model serving |
 | [Streamlit](https://streamlit.io) | Yes | Interactive dashboards for research tools |
 
-<details>
-<summary><strong>Recommended deployment pattern</strong></summary>
+<hr class="section-divider">
 
-- Use **GitHub** as the canonical source for versioning, issues, and releases  
-- Use **GitHub Pages** as the public-facing documentation layer  
-- Use **Docker** to ensure reproducibility across systems  
+### Accessibility and Data Transparency {#accessibility-transparency}
 
-</details>
-
-
-### 4.2 Accessibility and Data Transparency
-
-Transparency directly impacts reproducibility, auditability, and trust in AI-enabled scientific workflows. The degree of openness in data and models influences whether results can be independently verified and extended.
+The level of openness in deployed systems influences reproducibility, auditability, and downstream reuse of AI-enabled research outputs.
 
 #### Open data and openly documented systems
 
@@ -365,8 +353,6 @@ Transparency directly impacts reproducibility, auditability, and trust in AI-ena
 | [Common Crawl](https://commoncrawl.org/overview) | Web crawl datasets | Large-scale public data with provenance |
 | [The Pile (EleutherAI)](https://github.com/EleutherAI/the-pile) | Dataset composition | Community-driven, transparent corpus |
 
-
-
 #### Semi-open systems (limited disclosure)
 
 | Example | Limitation |
@@ -374,18 +360,13 @@ Transparency directly impacts reproducibility, auditability, and trust in AI-ena
 | LLaMA family (Meta) | Partial disclosure of training sources |
 | Gemini (Google) | Limited public detail on dataset composition |
 
-
-
 #### Closed systems (opaque training disclosure)
 
 | Example | Limitation |
 |-------|------------|
 | GPT class systems | Training datasets not publicly disclosed |
 
-
-
-Open-source deployment practices—combined with transparent data governance—enable the development of reusable, inspectable, and extensible AI infrastructures. By integrating collaborative version control, reproducible execution environments, and accessible interfaces, open platforms support scalable and trustworthy research workflows. In materials discovery and advanced manufacturing, these practices reduce redundant effort, facilitate cross-group collaboration, and accelerate the responsible adoption of AI-driven methods.
-
+These deployment practices illustrate how open platforms and transparent documentation can support reusable and extensible AI infrastructures for materials research.
 
 ## Emerging Technologies 
 
