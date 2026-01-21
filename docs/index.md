@@ -210,7 +210,9 @@ Together, these components enable scalable, interoperable, and reproducible hand
 
 ---
 ## Data and AI Pipeline
+
 This section curates core software libraries, model families, and deployment platforms commonly used to build end-to-end data and AI pipelines for materials discovery, characterization, and advanced manufacturing workflows.
+
 ### Data Processing
 Tools for parsing materials data, generating descriptors, scaling to high-throughput settings, and enabling real-time learning workflows.
 
