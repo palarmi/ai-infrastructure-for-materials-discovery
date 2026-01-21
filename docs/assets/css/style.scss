@@ -92,5 +92,34 @@ h2 { color: #990000 !important; }
 h3 { color: #0F172A !important; }
 h4 { color: #4A4A4A !important; }
 
+/* ===== TABLE BASE (SAFE) ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 2.5rem;
+  font-size: 0.95rem;
+}
+
+/* ===== TABLE CELLS ===== */
+table td {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* ===== TABLE SPACING ===== */
+table th,
+table td {
+  padding: 0.6rem 0.8rem;
+  vertical-align: top;
+}
+
+/* ===== TABLE LINKS ONLY ===== */
+table a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+table a:hover {
+  color: #990000;
+}
 
 
