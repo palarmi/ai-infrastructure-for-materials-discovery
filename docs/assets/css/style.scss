@@ -4,12 +4,6 @@
 @import "{{ site.theme }}";
 
 
-h1 {
-  color: #990000;
-   
-}
-
-
 .section-menu{
   display:flex;
   justify-content:center;
@@ -87,7 +81,6 @@ hr.section-divider {
   width: 72% !important;
   opacity: 0.95 !important;
 }
-
 
 /* ================================
    TEXT HIERARCHY (HEADINGS ONLY)
