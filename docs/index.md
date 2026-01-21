@@ -28,10 +28,10 @@ This site provides a structured overview of the data sources, computational tool
 Rather than reproducing the technical depth of the manuscript, the goal is to offer a navigable snapshot of the broader ecosystem in which these methods operate.
 
 ## Physical System: Data Collection {#data-collection}
-
-### Traditional Data Collection {#traditional-data}
-
 This section groups representative sources through which materials data are typically obtained, spanning experimental databases, simulation-driven datasets, and automated extraction pipelines.
+
+#### Traditional Data Collection {#traditional-data}
+
 
 | Database | Open Access | Scope |
 |---------|-------------|-------|
@@ -118,10 +118,7 @@ Language-model–driven and NLP-based systems for converting unstructured scient
 | [NEMAD](https://github.com/nemad-project) | Hybrid NLP + ML | Yes | Automated parsing and prediction from scientific text |
 | [Polymer Scholar](https://polymerscholar.org) | LLM-assisted extraction | Yes | Large-scale polymer–property data extraction |
 
-
 Together, these resources illustrate the heterogeneous origins of materials data that underpin data-driven and AI-enabled research pipelines.
-
-
 ---
 ## Data Preprocessing, Storage and Organization
 
