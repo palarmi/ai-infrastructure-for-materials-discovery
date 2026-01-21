@@ -207,6 +207,7 @@ Frameworks and standards designed to structure, index, and maintain consistency 
 | [Open Materials Database (OMDB)](https://omdb.mathub.io) | Materials database | Yes | Semantic indexing of materials information |
 
 Together, these components enable scalable, interoperable, and reproducible handling of materials data across diverse research workflows.
+
 ---
 ## Data and AI Pipeline
 This section curates core software libraries, model families, and deployment platforms commonly used to build end-to-end data and AI pipelines for materials discovery, characterization, and advanced manufacturing workflows.
