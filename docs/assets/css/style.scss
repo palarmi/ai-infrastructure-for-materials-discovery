@@ -4,119 +4,87 @@
 @import "{{ site.theme }}";
 
 
-/* ================================
-   COLOR SYSTEM
-================================ */
-:root {
-  --ncsu: #990000;
-  --blue: #232F3E;
-  --mid-gray: #4A5A6A;
-  --light-gray: #f5f5f5;
-  --border-gray: #e0e0e0;
-}
-
-/* ================================
-   HEADINGS
-================================ */
 h1 {
-  color: var(--ncsu);
+  color: #990000;
+   
 }
 
-h2 {
-  color: var(--blue);
-  margin-top: 4rem;
+
+.section-menu{
+  display:flex;
+  justify-content:center;
+  gap:2rem;
+  margin:1.5rem 0 2rem;
 }
 
-h3 {
-  color: var(--mid-gray);
-  font-weight: 600;
-  margin-top: 3rem;
+.menu-item{ position:relative; font-weight:600; cursor:pointer; }
+
+.menu-item > span{
+  color:#2F3E4E;
+  padding-bottom:4px;
+  border-bottom:2px solid transparent;
 }
 
-/* ================================
-   PURPOSE / CALLOUT BLOCKS
-================================ */
-blockquote {
-  color: #555;
-  border-left: 4px solid var(--ncsu);
-  background: #fafafa;
-  padding: 0.6rem 1rem;
-  margin: 1rem 0 1.5rem;
+.menu-item:hover > span{
+  color:#990000;
+  border-bottom-color:#990000;
 }
 
-/* ================================
-   TABLES (journal style)
-================================ */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5rem 0 2.5rem;
-  font-size: 0.95rem;
+.dropdown{
+  display:none;
+  position:absolute;
+  top:1.8rem;
+  left:0;
+  background:#fff;
+  border:1px solid #ddd;
+  min-width:260px;
+  padding:.4rem 0;
+  z-index:1000;
 }
 
-table th {
-  background: var(--light-gray);
-  font-weight: 600;
-  text-align: left;
-  border-bottom: 2px solid var(--border-gray);
+.menu-item:hover .dropdown{ display:block; }
+
+.dropdown a{
+  display:block;
+  padding:.35rem 1rem;
+  text-decoration:none;
+  color:#2B2B2B;
+  font-weight:400;
 }
 
-table td {
-  border-bottom: 1px solid var(--border-gray);
+.dropdown a:hover{
+  background:#f5f5f5;
+  color:#990000;
 }
 
-table th,
-table td {
-  padding: 0.6rem 0.8rem;
-  vertical-align: top;
-}
-
-/* Links inside tables */
-table a {
-  color: var(--blue);
-  text-decoration: none;
-}
-
-table a:hover {
-  color: var(--ncsu);
-  text-decoration: underline;
-}
-
-/* ================================
-   SECTION DIVIDERS
-================================ */
-
-/* Major section divider (---) */
-hr {
-  border: 0 !important;
-  border-top: 2px solid var(--border-gray) !important;
-  margin: 3rem 0 !important;
-}
-
-/* Subsection divider */
-hr.section-divider {
-  border: 0 !important;
-  border-top: 1px solid var(--border-gray) !important;
-  margin: 1.75rem 0 !important;
-  width: 72% !important;
-  opacity: 0.95 !important;
-  margin-left: 0 !important; /* align with text */
-}
-
-/* ================================
-   TOP MENU (links like <span>)
-================================ */
+/* Menu top-level links */
 .menu-link {
-  color: var(--blue) !important;
+  color: #2F3E4E !important;   /* blue-gray */
   font-weight: 600;
   text-decoration: none !important;
   padding-bottom: 4px;
   border-bottom: 2px solid transparent;
 }
 
+/* Hover effect */
 .menu-item:hover .menu-link {
-  color: var(--ncsu) !important;
-  border-bottom-color: var(--ncsu-wine);
+  color: #990000 !important;   /* NCSU wine */
+  border-bottom-color: #990000;
 }
 
+/* Section divider (for ---) */
+hr {
+  border: 0 !important;
+  border-top: 2px solid #d8d8d8 !important;
+  margin: 3rem 0 !important;
+}
+
+/* Subsection divider */
+hr.section-divider {
+  border: 0 !important;
+  border-top: 1px solid #d8d8d8 !important;
+  margin: 1.75rem 0 !important;
+  width: 72% !important;
+  opacity: 0.95 !important;
+}
 
