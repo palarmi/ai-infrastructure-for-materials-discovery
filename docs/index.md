@@ -450,7 +450,6 @@ Blockchain mechanisms enable controlled access, auditability, and tamper resista
 | MatSwarm | Federated learning with blockchain coordination |
 | Makerchain | Provenance tracking across manufacturing lifecycles |
 | MDCS / NMRR | Materials Genome Initiative data curation |
-
-
 Decentralized infrastructures integrating blockchain and federated learning enable collaborative materials discovery while preserving data sovereignty and institutional boundaries
+
 ---
