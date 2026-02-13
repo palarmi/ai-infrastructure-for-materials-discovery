@@ -451,5 +451,6 @@ Blockchain mechanisms enable controlled access, auditability, and tamper resista
 | Makerchain | Provenance tracking across manufacturing lifecycles |
 | MDCS / NMRR | Materials Genome Initiative data curation |
 
+
 Decentralized infrastructures integrating blockchain and federated learning enable collaborative materials discovery while preserving data sovereignty and institutional boundaries
 ---
